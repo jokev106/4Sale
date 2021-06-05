@@ -11,9 +11,6 @@ class MyTheme {
       visualDensity: VisualDensity.adaptivePlatformDensity,
       brightness: Brightness.light,
       fontFamily: GoogleFonts.rubik().fontFamily,
-
-
-
     );
   }
 }
