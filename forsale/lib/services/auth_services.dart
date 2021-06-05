@@ -67,6 +67,7 @@ class AuthServices{
     await auth.signOut().whenComplete((){
       userCollection.doc(uid).update({
         'isOn': '0',
+        'token': '-',
         'updatedAt': dateNow,
       });
     });
