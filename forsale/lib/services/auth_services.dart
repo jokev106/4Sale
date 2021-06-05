@@ -14,7 +14,6 @@ class AuthServices{
     String uid = "";
     UserCredential userCredential = await auth.createUserWithEmailAndPassword(email: users.email, password: users.password);
     uid = userCredential.user.uid;
-    // token = await userCredential.user.getIdToken();
     token = await FirebaseMessaging.instance.getToken();
 
     userCollection.doc(uid).set({
