@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762055253265",
+    "project_id": "forsale-165a0",
+    "storage_bucket": "forsale-165a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762055253265:android:f0275606fad77df35740b0",
+        "android_client_info": {
+          "package_name": "com.example.forsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762055253265-3o9fh1v25n7o479agfdeeit3hpgggdsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuT347YtncxHc9QYM22P-GWC_v4s3-DJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762055253265-3o9fh1v25n7o479agfdeeit3hpgggdsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
