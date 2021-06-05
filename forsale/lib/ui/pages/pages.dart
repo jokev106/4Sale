@@ -8,3 +8,6 @@ import 'package:forsale/services/services.dart';
 part 'login.dart';
 part 'mainmenu.dart';
 part 'register.dart';
+part 'myacc.dart';
+part 'listdata.dart';
+part 'adddata.dart';
