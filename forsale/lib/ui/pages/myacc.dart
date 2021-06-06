@@ -46,7 +46,7 @@ class _MyAccState extends State<MyAcc> {
                     icon: Icon(Icons.logout),
                     label: Text("Logout"),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.deepOrange[400],
+                      primary: Colors.grey[400],
                       elevation: 0,
                     )),
           ),

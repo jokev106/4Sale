@@ -7,6 +7,7 @@ class Products extends Equatable{
   final String productInfo;
   final String productPrice;
   final String productProfit;
+  final String addBy;
   final String createdAt;
   final String updateAt;
 
@@ -16,6 +17,7 @@ class Products extends Equatable{
     this.productInfo,
     this.productPrice,
     this.productProfit,
+    this.addBy,
     this.createdAt,
     this.updateAt,
   );
@@ -27,6 +29,7 @@ class Products extends Equatable{
     productInfo,
     productPrice,
     productProfit,
+    addBy,
     createdAt,
     updateAt,
   ];
