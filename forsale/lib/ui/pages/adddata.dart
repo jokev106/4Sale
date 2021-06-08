@@ -153,7 +153,7 @@ class _AddDataState extends State<AddData> {
                                       clearForm();
                                       setState(() {
                                         isLoading = false;
-                                        Navigator.pushReplacementNamed(context, ListData.routeName);
+                                        
                                       });
                                     } else {
                                       Fluttertoast.showToast(

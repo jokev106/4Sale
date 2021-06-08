@@ -15,12 +15,11 @@ String uid = FirebaseAuth.instance.currentUser.uid;
       width: double.infinity,
       height: double.infinity,
       child: StreamBuilder<QuerySnapshot>(
-        stream: productCollection.where('addBy', isEqualTo: uid).snapshots(),
+        stream: productCollection.snapshots(),
         builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot){
           if(snapshot.hasError){
-            return Text("Failed to load data");
+            return Text("Failed to load data!");
           }
-
           if(snapshot.connectionState == ConnectionState.waiting){
             return AcitivityServices.loadings();
           }
@@ -28,11 +27,11 @@ String uid = FirebaseAuth.instance.currentUser.uid;
           return new ListView(
             children: snapshot.data.docs.map((DocumentSnapshot doc){
               Sales sales = new Sales(
-                doc.data()['productId'],
-                doc.data()['productName'],
-                doc.data()['productDescription'],
-                doc.data()['productPrice'],
-                doc.data()['productImg'],
+                doc.data()['produckId'],
+                doc.data()['produckCategory'],
+                doc.data()['produckInfo'],
+                doc.data()['produckPrice'],
+                doc.data()['produckProfit'],
                 doc.data()['addBy'],
                 doc.data()['createdAt'],
                 doc.data()['updatedAt'],
