@@ -7,7 +7,7 @@ class ProductServices{
   static DocumentReference productDocument;
 
 
-  static Future<bool> addProduct(Products products) async{
+  static Future<bool> addProduct(Sales products) async{
     await Firebase.initializeApp();
     String dateNow = AcitivityServices.dateNow();
     productDocument = await productCollection.add({

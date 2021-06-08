@@ -1,6 +1,6 @@
 part of 'models.dart';
 
-class Products extends Equatable{
+class Sales extends Equatable{
   
   final String productId;
   final String productCategory;
@@ -11,7 +11,7 @@ class Products extends Equatable{
   final String createdAt;
   final String updateAt;
 
-  Products(
+  Sales(
     this.productId,
     this.productCategory,
     this.productInfo,

@@ -134,7 +134,7 @@ class _AddDataState extends State<AddData> {
                                   setState(() {
                                     isLoading = true;
                                   });
-                                  Products products = Products(
+                                  Sales products = Sales(
                                       "",
                                       ctrlproductCategory.text,
                                       ctrlproductInfo.text,

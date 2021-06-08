@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
          Login.routeName: (context) => Login(),
          MainMenu.routeName: (context) => MainMenu(),
          Register.routeName: (context) => Register(),
+         ListData.routeName: (context) => ListData(),
       },
     );
   }
